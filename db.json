@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": "TERM20",
+      "name": "20 Year Term Life",
+      "carrier": "Demo Life Insurance",
+      "minAge": 18,
+      "maxAge": 60,
+      "state": "TX"
+    }
+  ],
+  "quotes": [
+    {
+      "id": 1,
+      "quoteId": "EXT-Q-1001",
+      "carrier": "Demo Life Insurance",
+      "ratingClass": "Preferred",
+      "monthlyPremium": 42.75,
+      "annualPremium": 512.40
+    }
+  ],
+  "riders": [
+    {
+      "id": "ADB",
+      "name": "Accidental Death Benefit",
+      "price": 2.50
+    }
+  ]
+}
