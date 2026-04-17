@@ -45,16 +45,15 @@
       "carrier": "Demo Life Insurance A",
       "ratingClass": "Preferred",
       "monthlyPremium": 42.75,
-      "annualPremium": 512.40
+      "annualPremium": 512.4
     },
     {
       "id": 2,
       "quoteId": "EXT-Q-1002",
       "carrier": "Demo Life Insurance B",
       "ratingClass": "Standard",
-      "monthlyPremium": 55.20,
-      "annualPremium": 662.40
+      "monthlyPremium": 55.2,
+      "annualPremium": 662.4
     }
   ]
 }
-``
