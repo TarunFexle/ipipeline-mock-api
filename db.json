@@ -1,78 +1,60 @@
-[
-id": 1,  {
-    "productCode": "TERM_20",
-    "name": "20 Year Term Life",
-    "ageRange": {
-      "min": 18,
-      "max": 60
+{
+  "products": [
+    {
+      "id": 1,
+      "productCode": "TERM_10",
+      "name": "10 Year Term Life",
+      "ageRange": { "min": 18, "max": 70 },
+      "coverageRange": { "min": 50000, "max": 1000000, "step": 50000 },
+      "termRange": { "min": 5, "max": 10 },
+      "baseRate": 14
     },
-    "coverageRange": {
-      "min": 50000,
-      "max": 2000000,
-      "step": 50000
+    {
+      "id": 2,
+      "productCode": "TERM_15",
+      "name": "15 Year Term Life",
+      "ageRange": { "min": 21, "max": 65 },
+      "coverageRange": { "min": 75000, "max": 1500000, "step": 25000 },
+      "termRange": { "min": 10, "max": 15 },
+      "baseRate": 18
     },
-    "termRange": {
-      "min": 10,
-      "max": 30
+    {
+      "id": 3,
+      "productCode": "TERM_20",
+      "name": "20 Year Term Life",
+      "ageRange": { "min": 18, "max": 60 },
+      "coverageRange": { "min": 100000, "max": 2000000, "step": 50000 },
+      "termRange": { "min": 10, "max": 30 },
+      "baseRate": 20
     },
-    "baseRate": 20
-  },
-  {
-    "id": 2,
-    "productCode": "TERM_30",
-    "name": "30 Year Term Life",
-    "ageRange": {
-      "min": 25,
-      "max": 55
+    {
+      "id": 4,
+      "productCode": "TERM_30",
+      "name": "30 Year Term Life",
+      "ageRange": { "min": 25, "max": 55 },
+      "coverageRange": { "min": 250000, "max": 3000000, "step": 100000 },
+      "termRange": { "min": 20, "max": 30 },
+      "baseRate": 28
+    }
+  ],
+
+  "quotes": [
+    {
+      "id": 1,
+      "quoteId": "EXT-Q-1001",
+      "carrier": "Demo Life Insurance A",
+      "ratingClass": "Preferred",
+      "monthlyPremium": 42.75,
+      "annualPremium": 512.40
     },
-    "coverageRange": {
-      "min": 100000,
-      "max": 3000000,
-      "step": 100000
-    },
-    "termRange": {
-      "min": 20,
-      "max": 30
-    },
-    "baseRate": 28
-  },
-  {
-    "id": 3,
-    "productCode": "TERM_15",
-    "name": "15 Year Term Life",
-    "ageRange": {
-      "min": 21,
-      "max": 65
-    },
-    "coverageRange": {
-      "min": 75000,
-      "max": 1500000,
-      "step": 25000
-    },
-    "termRange": {
-      "min": 10,
-      "max": 15
-    },
-    "baseRate": 18
-  },
-  {
-    "id": 4,
-    "productCode": "TERM_10",
-    "name": "10 Year Term Life",
-    "ageRange": {
-      "min": 18,
-      "max": 70
-    },
-    "coverageRange": {
-      "min": 50000,
-      "max": 1000000,
-      "step": 50000
-    },
-    "termRange": {
-      "min": 5,
-      "max": 10
-    },
-    "baseRate": 14
-  }
-]
+    {
+      "id": 2,
+      "quoteId": "EXT-Q-1002",
+      "carrier": "Demo Life Insurance B",
+      "ratingClass": "Standard",
+      "monthlyPremium": 55.20,
+      "annualPremium": 662.40
+    }
+  ]
+}
 ``
